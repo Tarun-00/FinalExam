@@ -44,7 +44,7 @@ function listLength() {
 
 function createListElement(taskText) {
   if (taskText) {
-    input.value = taskText; // Set the taskText for "Ask User" functionality
+    input.value = taskText;
   }
   let li = document.createElement("li");
   li.appendChild(document.createTextNode(input.value));
